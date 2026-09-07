@@ -1,0 +1,463 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hackathon Idea Explorer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#f7f6f4; --panel:#fff; --sidebar:#faf9f7; --line:#e5e2dd; --line-soft:#efedea;
+  --ink:#1b1a18; --mut:#6e6a64; --faint:#9a958d;
+  --accent:#b0451f; --accent-soft:#fdf0ea; --win:#1d7a4c; --win-soft:#e9f5ee;
+  --bar:#c9c4bc; --radius:10px;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141312; --panel:#1d1c1a; --sidebar:#191817; --line:#302e2a; --line-soft:#262421;
+  --ink:#ecebe7; --mut:#9b968d; --faint:#6f6a63;
+  --accent:#e07a4f; --accent-soft:#2b201b; --win:#4fc48a; --win-soft:#182620;
+  --bar:#3d3a35;
+}}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);display:flex;
+  font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+
+/* ---------- sidebar ---------- */
+aside{width:258px;flex:0 0 258px;background:var(--sidebar);border-right:1px solid var(--line);
+  height:100vh;position:sticky;top:0;display:flex;flex-direction:column;overflow-y:auto}
+.brand{padding:18px 18px 14px;border-bottom:1px solid var(--line-soft)}
+.brand b{display:block;font-size:15px;letter-spacing:-.01em}
+.brand span{color:var(--faint);font-size:12px}
+nav{padding:12px 10px;border-bottom:1px solid var(--line-soft)}
+nav a{display:flex;align-items:center;gap:9px;padding:8px 10px;border-radius:7px;
+  color:var(--mut);text-decoration:none;font-size:14px;font-weight:500}
+nav a:hover{background:var(--line-soft);color:var(--ink)}
+nav a.on{background:var(--accent-soft);color:var(--accent)}
+nav a i{font-style:normal;width:16px;text-align:center;opacity:.85}
+.filters{padding:14px 16px;border-bottom:1px solid var(--line-soft)}
+.filters h5{margin:0 0 10px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--faint);font-weight:600}
+.filters label{display:block;font-size:12px;color:var(--mut);margin:0 0 4px}
+.filters .fld{margin-bottom:11px}
+select,input[type=search],input[type=text]{width:100%;font:inherit;font-size:13px;padding:7px 9px;
+  border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink)}
+.chk{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--mut);cursor:pointer}
+.sidefoot{margin-top:auto;padding:14px 16px;border-top:1px solid var(--line-soft);
+  font-size:12px;color:var(--faint)}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--win);
+  margin-right:6px;vertical-align:middle}
+
+/* ---------- main ---------- */
+main{flex:1;min-width:0;height:100vh;overflow-y:auto}
+.head{padding:22px 30px 0}
+.head h2{margin:0 0 2px;font-size:20px;letter-spacing:-.015em}
+.head p{margin:0 0 18px;color:var(--mut);font-size:14px}
+.body{padding:0 30px 60px}
+.panel{display:none}
+.panel.on{display:block}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:22px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.kpi b{display:block;font-size:26px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.kpi i{font-style:normal;color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:.07em}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:1000px){.grid2{grid-template-columns:1fr}}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;margin-bottom:16px}
+.box h3{margin:0 0 14px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--faint);font-weight:600}
+.barrow{display:grid;grid-template-columns:118px 1fr 42px;gap:10px;align-items:center;
+  margin-bottom:7px;font-size:13px}
+.barrow span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--mut)}
+.bar{height:7px;border-radius:4px;background:var(--line-soft);overflow:hidden}
+.bar>div{height:100%;background:var(--accent);border-radius:4px}
+.barrow em{font-style:normal;text-align:right;color:var(--faint);
+  font-variant-numeric:tabular-nums;font-size:12px}
+
+.toolbar{display:flex;gap:9px;margin-bottom:14px;align-items:center;flex-wrap:wrap}
+.toolbar input[type=search]{flex:1;min-width:240px}
+.toolbar select{width:auto;min-width:130px}
+.meta{color:var(--faint);font-size:13px;margin-bottom:11px;font-variant-numeric:tabular-nums}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 16px;margin-bottom:9px;cursor:pointer;transition:border-color .12s}
+.card:hover{border-color:var(--accent)}
+.card h4{margin:0 0 3px;font-size:15px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card p{margin:0 0 9px;color:var(--mut);font-size:14px}
+.badge{font-size:11px;padding:2px 7px;border-radius:20px;border:1px solid var(--line);
+  color:var(--mut);white-space:nowrap;font-weight:500}
+.badge.win{background:var(--win-soft);color:var(--win);border-color:transparent}
+.badge.src{background:var(--accent-soft);color:var(--accent);border-color:transparent;
+  font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em}
+.row2{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--faint)}
+.tag{font-family:var(--mono);font-size:11px;padding:1px 6px;border:1px solid var(--line);border-radius:4px}
+
+/* topic match */
+.topicbar{display:flex;gap:9px;margin-bottom:8px}
+.topicbar input{flex:1;font-size:15px;padding:11px 13px}
+.topicbar button{padding:11px 20px}
+.hintrow{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+.chip{font-size:12px;padding:3px 9px;border:1px solid var(--line);border-radius:20px;
+  background:var(--panel);color:var(--mut);cursor:pointer}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.lead{border:none;background:none;color:var(--faint);cursor:default;padding-left:0}
+.relev{display:flex;align-items:center;gap:8px;min-width:104px}
+.relev .bar{flex:1;height:5px}
+.relev em{font-style:normal;font-size:11px;color:var(--faint);
+  font-variant-numeric:tabular-nums;width:30px;text-align:right}
+.why{font-size:12px;color:var(--faint);margin-top:7px}
+.why b{color:var(--mut);font-weight:600}
+.why code{font-family:var(--mono);font-size:11px;background:var(--accent-soft);
+  color:var(--accent);padding:1px 5px;border-radius:4px;margin-right:3px}
+
+.pager{display:flex;gap:8px;justify-content:center;margin-top:20px}
+button{font:inherit;padding:8px 15px;border:1px solid var(--line);border-radius:8px;
+  background:var(--panel);color:var(--ink);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button:disabled{opacity:.4;cursor:default}
+.empty{text-align:center;color:var(--faint);padding:56px 0}
+
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);
+  max-width:780px;width:calc(100% - 40px);padding:0}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.dlg-head{padding:20px 24px 14px;border-bottom:1px solid var(--line)}
+.dlg-body{padding:18px 24px 24px;max-height:62vh;overflow:auto}
+.dlg-body h5{margin:18px 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--faint);font-weight:600}
+.dlg-body pre{white-space:pre-wrap;font:inherit;margin:0}
+a{color:var(--accent)}
+.gaprow{display:flex;gap:14px;align-items:flex-start}
+.gapnum{flex:0 0 74px;text-align:right;font-variant-numeric:tabular-nums}
+.gapnum b{display:block;font-size:22px;letter-spacing:-.02em}
+.gapnum span{font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
+.white{background:#1f7a4d1a;color:#1f7a4d;border-color:#1f7a4d40}
+@media (prefers-color-scheme:dark){.white{background:#4ade8018;color:#7ee2a8;border-color:#4ade8040}}
+.solved{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line)}
+.solved div{font-size:13px;color:var(--mut);padding:2px 0}
+.solved b{color:var(--ink);font-weight:600}
+.stmt{font-size:15px;line-height:1.45;margin:0 0 7px}
+</style>
+
+<aside>
+  <div class="brand"><b>Hackathon Ideas</b><span>winning projects, searchable</span></div>
+  <nav>
+    <a href="#" data-tab="overview" class="on"><i>▤</i> Overview</a>
+    <a href="#" data-tab="browse"><i>▦</i> Browse ideas</a>
+    <a href="#" data-tab="match"><i>◎</i> Topic match</a>
+    <a href="#" data-tab="radar"><i>◆</i> Problem radar</a>
+  </nav>
+  <div class="filters">
+    <h5>Filters</h5>
+    <div class="fld"><label>Source</label>
+      <select id="source"><option value="">All sources</option></select></div>
+    <div class="fld"><label>Hackathon</label>
+      <select id="hackathon"><option value="">All hackathons</option></select></div>
+    <div class="fld"><label>Tech</label>
+      <select id="tech"><option value="">Any tech</option></select></div>
+    <div class="fld"><label>Sort</label>
+      <select id="sort">
+        <option value="likes">Most liked</option><option value="views">Most viewed</option>
+        <option value="recent">Newest</option><option value="title">A–Z</option>
+      </select></div>
+    <label class="chk"><input type="checkbox" id="winners" checked> Prize winners only</label>
+  </div>
+  <div class="sidefoot"><span class="dot"></span><span id="live">loading…</span></div>
+</aside>
+
+<main>
+  <div class="head">
+    <h2 id="h-title">Overview</h2>
+    <p id="h-sub">What has been collected so far.</p>
+  </div>
+  <div class="body">
+
+    <section class="panel on" id="p-overview">
+      <div class="cards" id="kpis"></div>
+      <div class="grid2">
+        <div class="box"><h3>Projects by source</h3><div id="o-src"></div></div>
+        <div class="box"><h3>Most common tech</h3><div id="o-tech"></div></div>
+      </div>
+      <div class="grid2">
+        <div class="box"><h3>Biggest hackathons</h3><div id="o-hacks"></div></div>
+        <div class="box"><h3>Most awarded prizes</h3><div id="o-prizes"></div></div>
+      </div>
+      <div class="box"><h3>Recently submitted</h3><div id="o-recent"></div></div>
+    </section>
+
+    <section class="panel" id="p-browse">
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="Search titles, taglines, write-ups… (all words must match)">
+      </div>
+      <div class="meta" id="meta"></div>
+      <div id="list"></div>
+      <div class="pager"><button id="prev">← Prev</button><button id="next">Next →</button></div>
+    </section>
+
+    <section class="panel" id="p-match">
+      <div class="topicbar">
+        <input type="text" id="topic" placeholder="Describe a topic — e.g. reducing food waste for restaurants">
+        <button class="primary" id="go">Match</button>
+      </div>
+      <div class="hintrow" id="hints"></div>
+      <div class="meta" id="m-meta"></div>
+      <div id="m-list"></div>
+    </section>
+
+    <section class="panel" id="p-radar">
+      <div class="topicbar">
+        <select id="g-domain"><option value="">All domains</option></select>
+        <select id="g-source"><option value="">All sources</option></select>
+        <label class="chk" style="margin:0 4px"><input type="checkbox" id="g-unsolved"> White space only</label>
+        <button class="primary" id="g-go">Refresh</button>
+      </div>
+      <div class="meta" id="g-meta"></div>
+      <div id="g-list"></div>
+    </section>
+
+  </div>
+</main>
+
+<dialog id="dlg">
+  <div class="dlg-head">
+    <h3 id="d-title" style="margin:0 0 4px;font-size:17px"></h3>
+    <div id="d-sub" style="color:var(--mut);font-size:14px"></div>
+  </div>
+  <div class="dlg-body" id="d-body"></div>
+  <div style="padding:0 24px 20px"><button onclick="document.getElementById('dlg').close()">Close</button></div>
+</dialog>
+
+<script>
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const num = n => (n ?? 0).toLocaleString();
+let page = 1, tab = "overview";
+
+const TABS = {
+  overview: ["Overview", "What has been collected so far."],
+  browse:   ["Browse ideas", "Every scraped project. Filters on the left; search needs all words to appear."],
+  match:    ["Topic match", "Describe a topic in plain language — ideas are ranked by BM25 relevance, showing which words matched and where."],
+  radar:    ["Problem radar", "Pain points mined from social sources, ranked by how little of the 8k-project corpus already answers them."],
+};
+
+$$("nav a").forEach(a => a.onclick = e => {
+  e.preventDefault();
+  tab = a.dataset.tab;
+  $$("nav a").forEach(x => x.classList.toggle("on", x === a));
+  $$(".panel").forEach(p => p.classList.toggle("on", p.id === "p-" + tab));
+  [$("#h-title").textContent, $("#h-sub").textContent] = TABS[tab];
+  if (tab === "overview") loadOverview();
+  if (tab === "browse") load();
+  if (tab === "match" && $("#topic").value.trim()) runMatch();
+  if (tab === "radar") loadRadar();
+});
+
+let radarFacets = false;
+
+async function loadRadar() {
+  if (!radarFacets) {
+    const f = await (await fetch("/api/problems?limit=1")).json();
+    $("#g-domain").innerHTML = '<option value="">All domains</option>' +
+      f.domains.map(d => `<option value="${esc(d.domain)}">${esc(d.domain)} (${d.n})</option>`).join("");
+    $("#g-source").innerHTML = '<option value="">All sources</option>' +
+      f.sources.map(d => `<option value="${esc(d.source)}">${esc(d.source)} (${d.n})</option>`).join("");
+    radarFacets = true;
+  }
+  $("#g-meta").textContent = "matching problems against every scraped project…";
+  const p = new URLSearchParams({
+    top: 25, domain: $("#g-domain").value, source: $("#g-source").value,
+    unsolved: $("#g-unsolved").checked ? "1" : "0",
+  });
+  const r = await (await fetch("/api/gap?" + p)).json();
+  if (!r.items.length) {
+    $("#g-meta").textContent = "no pain points yet — run `run.py mine` first";
+    $("#g-list").innerHTML = ""; return;
+  }
+  const white = r.items.filter(i => !i.solved_by).length;
+  $("#g-meta").textContent = `${r.total} problems · ${white} with no project attacking them`;
+  $("#g-list").innerHTML = r.items.map(gapHTML).join("");
+}
+
+function gapHTML(g) {
+  const badges = [
+    g.frequency > 1 ? `<span class="badge">${g.frequency} reports</span>` : "",
+    g.severity ? `<span class="badge">severity ${g.severity}</span>` : "",
+    g.domain ? `<span class="badge">${esc(g.domain)}</span>` : "",
+    g.who ? `<span class="tag">${esc(g.who)}</span>` : "",
+    `<span class="badge src">${esc(g.source)}</span>`,
+  ].join("");
+  const solved = g.solved_by
+    ? `<div class="solved"><div>${g.solved_by} project${g.solved_by > 1 ? "s" : ""} already attack this:</div>` +
+      g.projects.map(p =>
+        `<div>· <b>${esc(p.title || p.key)}</b> — ${esc(p.hackathon_name || "")}
+          <span class="tag">${Math.round(p.coverage * 100)}% overlap</span></div>`).join("") +
+      (g.solved_by > g.projects.length
+        ? `<div>· …and ${g.solved_by - g.projects.length} more</div>` : "") +
+      `</div>`
+    : `<div class="solved"><span class="badge white">white space — no project in the corpus attacks this</span></div>`;
+  return `<div class="card"><div class="gaprow">
+    <div class="gapnum"><b>${g.gap_score}</b><span>gap</span></div>
+    <div style="flex:1;min-width:0">
+      <p class="stmt">${esc(g.problem_statement)}</p>
+      <div class="row2">${badges}<a href="${esc(g.url)}" target="_blank" rel="noopener">source post ↗</a></div>
+      ${solved}
+    </div></div></div>`;
+}
+
+function cardHTML(p, extra = "") {
+  return `<div class="card" data-key="${p.key}">
+    <h4>${esc(p.title)}<span class="badge src">${esc(p.source)}</span>
+      ${p.is_winner ? '<span class="badge win">winner</span>' : ""}</h4>
+    <p>${esc(p.tagline)}</p>
+    <div class="row2">
+      <span>${esc(p.hackathon_name || p.hackathon_slug)}</span>
+      ${(p.prize_names || []).map(n => `<span class="badge">${esc(n)}</span>`).join("")}
+      ${(p.tech_stack || []).slice(0, 6).map(t => `<span class="tag">${esc(t)}</span>`).join("")}
+      ${p.likes ? `<span>♥ ${p.likes}</span>` : ""}
+    </div>${extra}</div>`;
+}
+
+function bars(el, rows, label = "name", val = "n") {
+  const max = Math.max(1, ...rows.map(r => r[val]));
+  el.innerHTML = rows.length ? rows.map(r => `<div class="barrow">
+      <span title="${esc(r[label])}">${esc(r[label])}</span>
+      <div class="bar"><div style="width:${100 * r[val] / max}%"></div></div>
+      <em>${num(r[val])}</em></div>`).join("") : '<div class="empty">No data yet.</div>';
+}
+
+$("#g-go").onclick = loadRadar;
+$("#g-unsolved").onchange = loadRadar;
+
+async function loadStats() {
+  const s = await (await fetch("/api/stats")).json();
+  $("#live").textContent = `${num(s.total)} projects · ${num(s.winners)} winners · ${num(s.problems)} pain points`;
+  return s;
+}
+
+async function loadOverview() {
+  const s = await loadStats();
+  const o = await (await fetch("/api/overview")).json();
+  $("#kpis").innerHTML = `
+    <div class="kpi"><b>${num(s.total)}</b><i>projects</i></div>
+    <div class="kpi"><b>${num(s.winners)}</b><i>prize winners</i></div>
+    <div class="kpi"><b>${num(s.hackathons)}</b><i>hackathons</i></div>
+    <div class="kpi"><b>${num(s.problems)}</b><i>pain points mined</i></div>` +
+    o.sources.map(x => `<div class="kpi"><b>${num(x.n)}</b><i>${esc(x.source)}</i></div>`).join("");
+  bars($("#o-src"), o.sources.map(x => ({ name: x.source, n: x.n })));
+  bars($("#o-tech"), o.tech);
+  bars($("#o-hacks"), o.hackathons.map(h => ({ name: h.name || h.slug, n: h.n })));
+  bars($("#o-prizes"), o.prizes);
+  $("#o-recent").innerHTML = o.recent.map(p => cardHTML(p)).join("") || '<div class="empty">No data yet.</div>';
+}
+
+function filterParams() {
+  return { source: $("#source").value, hackathon: $("#hackathon").value,
+           tech: $("#tech").value, winners: $("#winners").checked ? "1" : "" };
+}
+
+async function loadFacets() {
+  const f = await (await fetch("/api/facets")).json();
+  const srcs = [...new Set(f.hackathons.map(h => h.source))].sort();
+  $("#source").innerHTML = '<option value="">All sources</option>' +
+    srcs.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join("");
+  $("#hackathon").innerHTML = '<option value="">All hackathons</option>' +
+    f.hackathons.map(h => `<option value="${esc(h.slug)}">${esc(h.name || h.slug)} (${h.n})</option>`).join("");
+  $("#tech").innerHTML = '<option value="">Any tech</option>' +
+    f.tech.map(t => `<option value="${esc(t.name)}">${esc(t.name)} (${t.n})</option>`).join("");
+}
+
+async function load() {
+  const p = new URLSearchParams({ ...filterParams(), q: $("#q").value, sort: $("#sort").value, page, per: 50 });
+  const r = await (await fetch("/api/projects?" + p)).json();
+  const from = (r.page - 1) * r.per;
+  $("#meta").textContent = r.total
+    ? `${num(r.total)} matching — showing ${from + 1}–${Math.min(from + r.per, r.total)}` : "";
+  $("#list").innerHTML = r.items.length ? r.items.map(x => cardHTML(x)).join("")
+    : '<div class="empty">No projects match these filters.</div>';
+  $("#prev").disabled = r.page <= 1;
+  $("#next").disabled = from + r.per >= r.total;
+}
+
+let matchSeq = 0;
+async function runMatch() {
+  const topic = $("#topic").value.trim();
+  if (!topic) return;
+  // Guard against overlapping requests: a slow earlier match must not clobber
+  // a newer one, and a failure must not leave "matching…" on screen forever.
+  const seq = ++matchSeq;
+  $("#m-meta").textContent = "matching…";
+  const f = filterParams();
+  let r;
+  try {
+    const resp = await fetch("/api/match?" + new URLSearchParams(
+      { topic, winners: f.winners, source: f.source, limit: 40 }));
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    r = await resp.json();
+  } catch (err) {
+    if (seq === matchSeq) {
+      $("#m-meta").textContent = "";
+      $("#m-list").innerHTML = `<div class="empty">Match failed: ${esc(err.message)}</div>`;
+    }
+    return;
+  }
+  if (seq !== matchSeq) return;   // a newer match already rendered
+  $("#m-meta").textContent = r.items.length
+    ? `${r.items.length} idea${r.items.length > 1 ? "s" : ""} ranked against “${topic}”`
+    : "";
+  $("#hints").innerHTML = r.related.length
+    ? '<span class="chip lead">Refine with:</span>' +
+      r.related.map(t => `<span class="chip" data-term="${esc(t)}">+ ${esc(t)}</span>`).join("")
+    : "";
+  $("#m-list").innerHTML = r.items.length ? r.items.map(p => {
+    const why = Object.entries(p.matched).map(([f, ts]) =>
+      `<b>${esc(f.replace(/_/g, " "))}</b> ${ts.map(t => `<code>${esc(t)}</code>`).join("")}`).join(" · ");
+    return cardHTML(p, `<div class="why">
+        <div class="relev" style="margin-bottom:5px">
+          <div class="bar"><div style="width:${p.relevance}%"></div></div>
+          <em>${p.relevance}%</em></div>
+        matched in ${why}</div>`);
+  }).join("") : `<div class="empty">Nothing matched “${esc(topic)}”.<br>
+      <span style="font-size:13px">Matching is lexical — try broader or different words.</span></div>`;
+}
+
+$("#hints").addEventListener("click", e => {
+  const c = e.target.closest(".chip[data-term]"); if (!c) return;
+  $("#topic").value = ($("#topic").value.trim() + " " + c.dataset.term).trim();
+  runMatch();
+});
+
+document.body.addEventListener("click", async e => {
+  const card = e.target.closest(".card"); if (!card) return;
+  const p = await (await fetch("/api/project/" + card.dataset.key)).json();
+  $("#d-title").textContent = p.title;
+  $("#d-sub").innerHTML = `${esc(p.tagline)}<br>
+    <a href="${esc(p.url)}" target="_blank" rel="noreferrer noopener">${esc(p.url)}</a>`;
+  const sec = (h, v) => v ? `<h5>${h}</h5><pre>${esc(v)}</pre>` : "";
+  const lst = (h, a) => a?.length ? `<h5>${h}</h5><div class="row2">${
+    a.map(x => `<span class="tag">${esc(x)}</span>`).join("")}</div>` : "";
+  $("#d-body").innerHTML =
+    lst("Prizes", (p.prizes || []).map(z => [z.rank || z.name, z.sponsor].filter(Boolean).join(" — ")))
+    + sec("Hackathon", [p.hackathon_name, p.hackathon_end].filter(Boolean).join(" · "))
+    + sec("The problem it solves", p.problem_solved)
+    + sec("Challenges", p.challenges)
+    + sec("Full write-up", p.description)
+    + lst("Tech stack", p.tech_stack) + lst("Tracks", p.tracks) + lst("Team", p.team)
+    + (p.repo_url ? `<h5>Repo</h5><a href="${esc(p.repo_url)}" target="_blank" rel="noreferrer noopener">${esc(p.repo_url)}</a>` : "")
+    + (p.demo_url ? `<h5>Demo</h5><a href="${esc(p.demo_url)}" target="_blank" rel="noreferrer noopener">${esc(p.demo_url)}</a>` : "");
+  $("#dlg").showModal();
+});
+
+let t;
+const rerun = () => { clearTimeout(t); t = setTimeout(() => {
+  page = 1;
+  if (tab === "browse") load(); else if (tab === "match") runMatch(); else loadOverview();
+}, 220); };
+["#source", "#hackathon", "#tech", "#sort", "#winners"].forEach(s => $(s).addEventListener("change", rerun));
+$("#q").addEventListener("input", rerun);
+$("#go").onclick = runMatch;
+$("#topic").addEventListener("keydown", e => { if (e.key === "Enter") runMatch(); });
+$("#prev").onclick = () => { page--; load(); $("main").scrollTo(0, 0); };
+$("#next").onclick = () => { page++; load(); $("main").scrollTo(0, 0); };
+
+loadFacets(); loadOverview();
+setInterval(loadStats, 15000);   // a crawl may still be filling the database
+</script>

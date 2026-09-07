@@ -1,0 +1,701 @@
+03:19:18 INFO    [devpost] 1 tiktoktechjam2026 -> 0 stored so far
+03:19:18 INFO    [devpost] tiktoktechjam2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:21 INFO    [devpost] 2 hack-for-humanity-summer-26 -> 0 stored so far
+03:19:21 INFO    [devpost] hack-for-humanity-summer-26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:24 INFO    [devpost] 3 code-to-connect-wit -> 0 stored so far
+03:19:24 INFO    [devpost] code-to-connect-wit had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:29 INFO    [devpost] 4 cmu-hackathon -> 0 stored so far
+03:19:29 INFO    [devpost] cmu-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:34 INFO    [devpost] 5 xprize -> 0 stored so far
+03:19:34 INFO    [devpost] xprize had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:36 INFO    [devpost] 6 allthingsagentichackathon -> 0 stored so far
+03:19:36 INFO    [devpost] allthingsagentichackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:39 INFO    [devpost] 7 webmcp -> 0 stored so far
+03:19:39 INFO    [devpost] webmcp had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:42 INFO    [devpost] 8 cockroachdb-ai -> 0 stored so far
+03:19:42 INFO    [devpost] cockroachdb-ai had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:46 INFO    [devpost] 9 datahub -> 0 stored so far
+03:19:46 INFO    [devpost] datahub had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:54 INFO    [devpost] 10 arm-ai-optimization-challenge -> 0 stored so far
+03:19:54 INFO    [devpost] arm-ai-optimization-challenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:19:59 INFO    [devpost] 11 reverie-hacks-2026 -> 0 stored so far
+03:19:59 INFO    [devpost] reverie-hacks-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:04 INFO    [devpost] 12 adtc-2026 -> 0 stored so far
+03:20:04 INFO    [devpost] adtc-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:17 INFO    [devpost] 13 youcam-api -> 5 stored so far
+03:20:19 INFO    [devpost] 14 3d-websites-hackathon -> 5 stored so far
+03:20:20 INFO    [devpost] 3d-websites-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:22 INFO    [devpost] 15 agentic-ai-build-week-2026 -> 5 stored so far
+03:20:22 INFO    [devpost] agentic-ai-build-week-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:26 INFO    [devpost] 16 kaya-ai-iit-hackathon-2026 -> 5 stored so far
+03:20:26 INFO    [devpost] kaya-ai-iit-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:29 INFO    [devpost] 17 impactforge -> 5 stored so far
+03:20:29 INFO    [devpost] impactforge had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:32 INFO    [devpost] 18 hack-the-limit-1 -> 5 stored so far
+03:20:32 INFO    [devpost] hack-the-limit-1 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:20:50 INFO    [devpost] 19 cs-girlies-wellness-hackathon -> 12 stored so far
+03:47:36 INFO    [devpost] 20 beyond-tomorrow-summit -> 12 stored so far
+03:47:36 INFO    [devpost] beyond-tomorrow-summit had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:47:38 INFO    [devpost] 21 luma-hackathon-500 -> 12 stored so far
+03:47:38 INFO    [devpost] luma-hackathon-500 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:47:40 INFO    [devpost] 22 smartaithon -> 12 stored so far
+03:47:40 INFO    [devpost] smartaithon had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:47:44 INFO    [devpost] 23 brainwaves -> 12 stored so far
+03:47:44 INFO    [devpost] brainwaves had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:47:48 INFO    [devpost] 24 the-great-agent-hackathon -> 12 stored so far
+03:47:48 INFO    [devpost] the-great-agent-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:47:55 INFO    [devpost] 25 hacksocial2026 -> 12 stored so far
+03:47:56 INFO    [devpost] hacksocial2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:48:04 INFO    [devpost] 26 august-ai-challenge-31059 -> 12 stored so far
+03:48:04 INFO    [devpost] august-ai-challenge-31059 had no prize-winners (winners are often announced weeks after a hackathon ends)
+03:48:07 INFO    [devpost] 27 trainium-frontier -> 12 stored so far
+03:48:07 INFO    [devpost] trainium-frontier had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:44:40 INFO    [devpost] 28 igad-husika-hackathon -> 12 stored so far
+04:44:40 INFO    [devpost] igad-husika-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:44:43 INFO    [devpost] 29 inspire-hackathon -> 12 stored so far
+04:44:43 INFO    [devpost] inspire-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:44:48 INFO    [devpost] 30 prismbuild -> 12 stored so far
+04:44:48 INFO    [devpost] prismbuild had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:44:53 INFO    [devpost] 31 hack-the-tech -> 12 stored so far
+04:44:53 INFO    [devpost] hack-the-tech had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:44:56 INFO    [devpost] 32 dsoc-summer-edition -> 12 stored so far
+04:44:56 INFO    [devpost] dsoc-summer-edition had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:34 INFO    [devpost] 33 technoviz-summer-of-code -> 12 stored so far
+04:48:34 INFO    [devpost] technoviz-summer-of-code had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:37 INFO    [devpost] 34 hackthearts -> 12 stored so far
+04:48:37 INFO    [devpost] hackthearts had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:39 INFO    [devpost] 35 nacos-x-gdg-ai-hackathon -> 12 stored so far
+04:48:39 INFO    [devpost] nacos-x-gdg-ai-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:42 INFO    [devpost] 36 ai-yes-competition-30441 -> 12 stored so far
+04:48:42 INFO    [devpost] ai-yes-competition-30441 had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:48 INFO    [devpost] 37 hack-the-habitat-2026 -> 12 stored so far
+04:48:48 INFO    [devpost] hack-the-habitat-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:51 INFO    [devpost] 38 acesat-ai-agent -> 12 stored so far
+04:48:51 INFO    [devpost] acesat-ai-agent had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:48:54 INFO    [devpost] 39 ztq -> 12 stored so far
+04:48:54 INFO    [devpost] ztq had no prize-winners (winners are often announced weeks after a hackathon ends)
+04:49:12 INFO    [devpost] 40 syncs-hack-2026 -> 21 stored so far
+04:49:17 INFO    [devpost] 41 hack4her-mty -> 21 stored so far
+04:49:17 INFO    [devpost] hack4her-mty had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:04:41 INFO    [devpost] 42 assistive-innovation-challenge -> 21 stored so far
+05:04:41 INFO    [devpost] assistive-innovation-challenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:22:11 INFO    [devpost] 43 ntu-cctf-snz-innovatex-2026 -> 21 stored so far
+05:22:11 INFO    [devpost] ntu-cctf-snz-innovatex-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:22:13 INFO    [devpost] 44 pinch-me-i-want-50k -> 21 stored so far
+05:22:13 INFO    [devpost] pinch-me-i-want-50k had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:22:15 INFO    [devpost] 45 btt-web-game-jam -> 21 stored so far
+05:22:15 INFO    [devpost] btt-web-game-jam had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:37 INFO    [devpost] 46 gatewaygs-ai-4-earth-hackathon -> 21 stored so far
+05:49:37 INFO    [devpost] gatewaygs-ai-4-earth-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:40 INFO    [devpost] 47 web-champ -> 21 stored so far
+05:49:40 INFO    [devpost] web-champ had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:41 INFO    [devpost] 48 genz-can-hack-2026 -> 21 stored so far
+05:49:41 INFO    [devpost] genz-can-hack-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:43 INFO    [devpost] 49 ogc2026 -> 21 stored so far
+05:49:43 INFO    [devpost] ogc2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:51 INFO    [devpost] 50 weatherwise-hack -> 24 stored so far
+05:49:54 INFO    [devpost] 51 devsoc-starlight-2026 -> 24 stored so far
+05:49:54 INFO    [devpost] devsoc-starlight-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:56 INFO    [devpost] 52 connectsblue -> 24 stored so far
+05:49:56 INFO    [devpost] connectsblue had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:49:58 INFO    [devpost] 53 dti-hackathon-2026-30476 -> 24 stored so far
+05:49:58 INFO    [devpost] dti-hackathon-2026-30476 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:00 INFO    [devpost] 54 devsunite-hiring-hackathon -> 24 stored so far
+05:50:00 INFO    [devpost] devsunite-hiring-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:03 INFO    [devpost] 55 sns-bold-ai -> 24 stored so far
+05:50:03 INFO    [devpost] sns-bold-ai had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:06 INFO    [devpost] 56 smart-city-hackathon-lahore -> 24 stored so far
+05:50:06 INFO    [devpost] smart-city-hackathon-lahore had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:09 INFO    [devpost] 57 prompt-wars-2026 -> 24 stored so far
+05:50:09 INFO    [devpost] prompt-wars-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:11 INFO    [devpost] 58 ventura-challenge -> 24 stored so far
+05:50:11 INFO    [devpost] ventura-challenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:13 INFO    [devpost] 59 mlhackday -> 24 stored so far
+05:50:13 INFO    [devpost] mlhackday had no prize-winners (winners are often announced weeks after a hackathon ends)
+05:50:17 INFO    [devpost] 60 imaginehack2026 -> 24 stored so far
+05:50:17 INFO    [devpost] imaginehack2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+06:50:38 INFO    [devpost] 61 brainwave-2026-midnight-track -> 24 stored so far
+06:50:38 INFO    [devpost] brainwave-2026-midnight-track had no prize-winners (winners are often announced weeks after a hackathon ends)
+06:50:40 INFO    [devpost] 62 lifehack-2026 -> 24 stored so far
+06:50:40 INFO    [devpost] lifehack-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+06:50:41 INFO    [devpost] 63 brainwave-2026 -> 24 stored so far
+06:50:41 INFO    [devpost] brainwave-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+06:51:17 INFO    [devpost] 64 brainwave-2026 -> 24 stored so far
+06:51:17 INFO    [devpost] brainwave-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:42 INFO    [devpost] 65 the-email-game -> 24 stored so far
+07:51:42 INFO    [devpost] the-email-game had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:46 INFO    [devpost] 66 vibehack-london-2026 -> 24 stored so far
+07:51:46 INFO    [devpost] vibehack-london-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:48 INFO    [devpost] 67 nexora -> 24 stored so far
+07:51:48 INFO    [devpost] nexora had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:53 INFO    [devpost] 68 neurox1-0 -> 24 stored so far
+07:51:53 INFO    [devpost] neurox1-0 had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:56 INFO    [devpost] 69 njx-hackathon-summer-2026 -> 24 stored so far
+07:51:56 INFO    [devpost] njx-hackathon-summer-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+07:51:59 INFO    [devpost] 70 easygo-mini-hackathon -> 24 stored so far
+07:51:59 INFO    [devpost] easygo-mini-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+08:05:28 WARNING devpost detail failed for https://devpost.com/software/kirobuildfest: HTTPSConnectionPool(host='devpost.com', port=443): Max retries exceeded with url: /software/kirobuildfest (Caused by NameResolutionError("HTTPSConnection(host='devpost.com', port=443): Failed to resolve 'devpost.com' ([Errno 8] nodename nor servname provided, or not known)"))
+08:05:44 WARNING devpost detail failed for https://devpost.com/software/healthkaki: HTTPSConnectionPool(host='devpost.com', port=443): Max retries exceeded with url: /software/healthkaki (Caused by NameResolutionError("HTTPSConnection(host='devpost.com', port=443): Failed to resolve 'devpost.com' ([Errno 8] nodename nor servname provided, or not known)"))
+08:12:41 WARNING devpost detail failed for https://devpost.com/software/no-route-to-host: HTTPSConnectionPool(host='devpost.com', port=443): Max retries exceeded with url: /software/no-route-to-host (Caused by NameResolutionError("HTTPSConnection(host='devpost.com', port=443): Failed to resolve 'devpost.com' ([Errno 8] nodename nor servname provided, or not known)"))
+08:52:59 INFO    [devpost] 71 sg-kiro-buildfest -> 31 stored so far
+09:53:47 INFO    [devpost] 72 devleague-2026 -> 31 stored so far
+09:53:47 INFO    [devpost] devleague-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:03:24 INFO    [devpost] 73 baskchallenge -> 31 stored so far
+10:03:24 INFO    [devpost] baskchallenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:03:28 INFO    [devpost] 74 build-zero-hackathon-nairobi -> 32 stored so far
+10:03:31 INFO    [devpost] 75 ourplanetrocks -> 32 stored so far
+10:03:31 INFO    [devpost] ourplanetrocks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:03:37 INFO    [devpost] 76 dothack-heap-2026 -> 35 stored so far
+10:03:47 INFO    [devpost] 77 intelliai-arena -> 39 stored so far
+10:03:56 INFO    [devpost] 78 hackathon-elk-gcp -> 42 stored so far
+10:03:58 INFO    [devpost] 79 agentic-hackathon -> 42 stored so far
+10:03:58 INFO    [devpost] agentic-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:00 INFO    [devpost] 80 muslimhacks -> 42 stored so far
+10:04:00 INFO    [devpost] muslimhacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:02 INFO    [devpost] 81 innovik-6-0-hackathon-2026 -> 42 stored so far
+10:04:02 INFO    [devpost] innovik-6-0-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:06 INFO    [devpost] 82 vidhyarthi-sewa-eduhack -> 42 stored so far
+10:04:06 INFO    [devpost] vidhyarthi-sewa-eduhack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:11 INFO    [devpost] 83 sound-for-all -> 44 stored so far
+10:04:13 INFO    [devpost] 84 faraway -> 44 stored so far
+10:04:13 INFO    [devpost] faraway had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:27 INFO    [devpost] 85 ai-for-social-good-mlh -> 51 stored so far
+10:04:38 INFO    [devpost] 86 summerhacksca -> 57 stored so far
+10:04:41 INFO    [devpost] 87 smu-lit-hackathon-2026 -> 57 stored so far
+10:04:41 INFO    [devpost] smu-lit-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:48 INFO    [devpost] 88 innovik6-indore -> 57 stored so far
+10:04:48 INFO    [devpost] innovik6-indore had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:51 INFO    [devpost] 89 nyc-travel-hack -> 57 stored so far
+10:04:51 INFO    [devpost] nyc-travel-hack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:54 INFO    [devpost] 90 icon-hackathon -> 57 stored so far
+10:04:54 INFO    [devpost] icon-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:04:58 INFO    [devpost] 91 creation-code-30750 -> 57 stored so far
+10:04:58 INFO    [devpost] creation-code-30750 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:02 INFO    [devpost] 92 openai-x-start-warsaw -> 57 stored so far
+10:05:02 INFO    [devpost] openai-x-start-warsaw had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:09 INFO    [devpost] 93 bwai-makerere-hackathon -> 60 stored so far
+10:05:11 INFO    [devpost] 94 gemini-event-hackmatrix -> 60 stored so far
+10:05:11 INFO    [devpost] gemini-event-hackmatrix had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:14 INFO    [devpost] 95 techx-rwanda-hackathon -> 60 stored so far
+10:05:14 INFO    [devpost] techx-rwanda-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:17 INFO    [devpost] 96 kuki-designed-group -> 60 stored so far
+10:05:17 INFO    [devpost] kuki-designed-group had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:26 INFO    [devpost] 97 esri-woi-2026 -> 65 stored so far
+10:05:29 INFO    [devpost] 98 canal-startup-sprint-hackathon -> 65 stored so far
+10:05:29 INFO    [devpost] canal-startup-sprint-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:39 INFO    [devpost] 99 chutes-hack-malaysia-2026 -> 71 stored so far
+10:05:44 INFO    [devpost] 100 hack-begin -> 71 stored so far
+10:05:44 INFO    [devpost] hack-begin had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:05:59 INFO    [devpost] 101 marinhacks -> 79 stored so far
+10:06:02 INFO    [devpost] 102 codebox-hacks -> 79 stored so far
+10:06:02 INFO    [devpost] codebox-hacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:05 INFO    [devpost] 103 frontier-ai-hacker-house -> 79 stored so far
+10:06:05 INFO    [devpost] frontier-ai-hacker-house had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:08 INFO    [devpost] 104 2026-csesoc-flagship-hackathon -> 79 stored so far
+10:06:08 INFO    [devpost] 2026-csesoc-flagship-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:10 INFO    [devpost] 105 ao-orchestra -> 79 stored so far
+10:06:10 INFO    [devpost] ao-orchestra had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:17 INFO    [devpost] 106 technisa-hacks -> 83 stored so far
+10:06:33 INFO    [devpost] 107 hackdays-mccs-lucknow -> 93 stored so far
+10:06:36 INFO    [devpost] 108 idea-vs-1000-marketers -> 93 stored so far
+10:06:36 INFO    [devpost] idea-vs-1000-marketers had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:38 INFO    [devpost] 109 build-fast-launch-loud -> 93 stored so far
+10:06:38 INFO    [devpost] build-fast-launch-loud had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:40 INFO    [devpost] 110 orchidhackx -> 93 stored so far
+10:06:40 INFO    [devpost] orchidhackx had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:42 INFO    [devpost] 111 neoma-hackathon -> 93 stored so far
+10:06:42 INFO    [devpost] neoma-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:06:48 INFO    [devpost] 112 win4aisafety-sain-utrecht -> 96 stored so far
+10:06:55 INFO    [devpost] 113 matlab-hack-the-drone -> 99 stored so far
+10:06:58 INFO    [devpost] 114 mtsi2026 -> 99 stored so far
+10:06:58 INFO    [devpost] mtsi2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:01 INFO    [devpost] 115 neoma-ai-hackathon-2026 -> 99 stored so far
+10:07:01 INFO    [devpost] neoma-ai-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:03 INFO    [devpost] 116 305summercodexjul2026 -> 99 stored so far
+10:07:03 INFO    [devpost] 305summercodexjul2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:13 INFO    [devpost] 117 lumora-hacks-2026 -> 102 stored so far
+10:07:17 INFO    [devpost] 118 pixel-forge-jam-2 -> 102 stored so far
+10:07:17 INFO    [devpost] pixel-forge-jam-2 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:18 INFO    [devpost] 119 cloudhacks-2026 -> 102 stored so far
+10:07:18 INFO    [devpost] cloudhacks-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:20 INFO    [devpost] 120 emp-hackfest-summer-2026 -> 102 stored so far
+10:07:20 INFO    [devpost] emp-hackfest-summer-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:23 INFO    [devpost] 121 quantumhack -> 102 stored so far
+10:07:23 INFO    [devpost] quantumhack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:25 INFO    [devpost] 122 hacknova-26-30838 -> 102 stored so far
+10:07:25 INFO    [devpost] hacknova-26-30838 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:27 INFO    [devpost] 123 westlake-fidhacks-2026 -> 102 stored so far
+10:07:27 INFO    [devpost] westlake-fidhacks-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:34 INFO    [devpost] 124 health-in-climate-london -> 105 stored so far
+10:07:36 INFO    [devpost] 125 3dc-x-agnes-ai -> 105 stored so far
+10:07:36 INFO    [devpost] 3dc-x-agnes-ai had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:38 INFO    [devpost] 126 mega-agent-a-thon -> 105 stored so far
+10:07:38 INFO    [devpost] mega-agent-a-thon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:42 INFO    [devpost] 127 lexhack-26 -> 105 stored so far
+10:07:42 INFO    [devpost] lexhack-26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:45 INFO    [devpost] 128 gtpn-hackathon-2026 -> 105 stored so far
+10:07:45 INFO    [devpost] gtpn-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:49 INFO    [devpost] 129 v1trous-hackathon-30125 -> 105 stored so far
+10:07:49 INFO    [devpost] v1trous-hackathon-30125 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:52 INFO    [devpost] 130 hack-days-in-kgi -> 105 stored so far
+10:07:52 INFO    [devpost] hack-days-in-kgi had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:07:54 INFO    [devpost] 131 buildnepal -> 105 stored so far
+10:07:54 INFO    [devpost] buildnepal had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:06 INFO    [devpost] 132 robotic-hackathon -> 113 stored so far
+10:08:09 INFO    [devpost] 133 vortexa -> 113 stored so far
+10:08:09 INFO    [devpost] vortexa had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:11 INFO    [devpost] 134 indyhax -> 113 stored so far
+10:08:11 INFO    [devpost] indyhax had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:14 INFO    [devpost] 135 insforge-hack -> 113 stored so far
+10:08:14 INFO    [devpost] insforge-hack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:27 INFO    [devpost] 136 dum-duber-and-dumber-hackathon -> 120 stored so far
+10:08:29 INFO    [devpost] 137 practice-submission -> 120 stored so far
+10:08:29 INFO    [devpost] practice-submission had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:31 INFO    [devpost] 138 kjsse-csi-gemini-hackday -> 120 stored so far
+10:08:31 INFO    [devpost] kjsse-csi-gemini-hackday had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:33 INFO    [devpost] 139 hackverse-30753 -> 120 stored so far
+10:08:33 INFO    [devpost] hackverse-30753 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:35 INFO    [devpost] 140 girls-got-game-jam-3 -> 120 stored so far
+10:08:35 INFO    [devpost] girls-got-game-jam-3 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:37 INFO    [devpost] 141 summerdevs26 -> 120 stored so far
+10:08:37 INFO    [devpost] summerdevs26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:41 INFO    [devpost] 142 vancouver-made -> 120 stored so far
+10:08:41 INFO    [devpost] vancouver-made had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:43 INFO    [devpost] 143 aar-h-codestorm -> 120 stored so far
+10:08:43 INFO    [devpost] aar-h-codestorm had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:46 INFO    [devpost] 144 305hackfiestamiamiaug2026 -> 120 stored so far
+10:08:46 INFO    [devpost] 305hackfiestamiamiaug2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:49 INFO    [devpost] 145 infinity-hacks -> 120 stored so far
+10:08:49 INFO    [devpost] infinity-hacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:51 INFO    [devpost] 146 brain-blitz-2026 -> 120 stored so far
+10:08:51 INFO    [devpost] brain-blitz-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:54 INFO    [devpost] 147 agent-memory-hack-night -> 120 stored so far
+10:08:54 INFO    [devpost] agent-memory-hack-night had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:56 INFO    [devpost] 148 melonjam-7 -> 120 stored so far
+10:08:56 INFO    [devpost] melonjam-7 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:08:58 INFO    [devpost] 149 beathacks -> 120 stored so far
+10:08:58 INFO    [devpost] beathacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:09 INFO    [devpost] 150 the-london-rork-game-hackathon -> 127 stored so far
+10:09:12 INFO    [devpost] 151 gemmanycaihealthcare -> 127 stored so far
+10:09:12 INFO    [devpost] gemmanycaihealthcare had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:13 INFO    [devpost] 152 hack-verse-30325 -> 127 stored so far
+10:09:13 INFO    [devpost] hack-verse-30325 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:15 INFO    [devpost] 153 haignyc1 -> 127 stored so far
+10:09:15 INFO    [devpost] haignyc1 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:19 INFO    [devpost] 154 cipherhacks2026 -> 127 stored so far
+10:09:19 INFO    [devpost] cipherhacks2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:26 INFO    [devpost] 155 hoothacks -> 130 stored so far
+10:09:28 INFO    [devpost] 156 gdgoc-hackathon -> 130 stored so far
+10:09:28 INFO    [devpost] gdgoc-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:30 INFO    [devpost] 157 1-000-industrial-ai-hackathon -> 130 stored so far
+10:09:30 INFO    [devpost] 1-000-industrial-ai-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:33 INFO    [devpost] 158 8090-build-for-builders-jun -> 130 stored so far
+10:09:33 INFO    [devpost] 8090-build-for-builders-jun had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:36 INFO    [devpost] 159 genius-olympiad-2026-29859 -> 130 stored so far
+10:09:36 INFO    [devpost] genius-olympiad-2026-29859 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:38 INFO    [devpost] 160 hardwarehacks-2026 -> 130 stored so far
+10:09:38 INFO    [devpost] hardwarehacks-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:40 INFO    [devpost] 161 myhack-2026 -> 130 stored so far
+10:09:40 INFO    [devpost] myhack-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:43 INFO    [devpost] 162 dive2026 -> 130 stored so far
+10:09:43 INFO    [devpost] dive2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:46 INFO    [devpost] 163 hack-days-in-hosur-30464 -> 130 stored so far
+10:09:46 INFO    [devpost] hack-days-in-hosur-30464 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:51 INFO    [devpost] 164 powered-by-mel -> 130 stored so far
+10:09:51 INFO    [devpost] powered-by-mel had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:09:52 INFO    [devpost] 165 hack-verse-30300 -> 130 stored so far
+10:09:52 INFO    [devpost] hack-verse-30300 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:02 INFO    [devpost] 166 build-with-ai-futminna-2026 -> 136 stored so far
+10:10:05 INFO    [devpost] 167 hacknova-30322 -> 136 stored so far
+10:10:05 INFO    [devpost] hacknova-30322 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:07 INFO    [devpost] 168 spatial-hack-ai -> 136 stored so far
+10:10:07 INFO    [devpost] spatial-hack-ai had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:08 INFO    [devpost] 169 infinity-hacks-2026-hackerrank -> 136 stored so far
+10:10:08 INFO    [devpost] infinity-hacks-2026-hackerrank had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:10 INFO    [devpost] 170 hack-munch-30312 -> 136 stored so far
+10:10:10 INFO    [devpost] hack-munch-30312 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:11 INFO    [devpost] 171 india-runs-2026 -> 136 stored so far
+10:10:11 INFO    [devpost] india-runs-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:15 INFO    [devpost] 172 futura-hackathon -> 136 stored so far
+10:10:15 INFO    [devpost] futura-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:18 INFO    [devpost] 173 fintech-hackothon-1 -> 136 stored so far
+10:10:18 INFO    [devpost] fintech-hackothon-1 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:21 INFO    [devpost] 174 veteran-innovation-hackathon -> 136 stored so far
+10:10:21 INFO    [devpost] veteran-innovation-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:22 INFO    [devpost] 175 lecathon -> 136 stored so far
+10:10:22 INFO    [devpost] lecathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:24 INFO    [devpost] 176 hack-vserse -> 136 stored so far
+10:10:24 INFO    [devpost] hack-vserse had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:25 INFO    [devpost] 177 ai-innovation-day-31076 -> 136 stored so far
+10:10:25 INFO    [devpost] ai-innovation-day-31076 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:27 INFO    [devpost] 178 hackiwha3-0 -> 136 stored so far
+10:10:27 INFO    [devpost] hackiwha3-0 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:29 INFO    [devpost] 179 cove -> 136 stored so far
+10:10:29 INFO    [devpost] cove had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:31 INFO    [devpost] 180 lovhack-x-brandoye-growathon -> 136 stored so far
+10:10:31 INFO    [devpost] lovhack-x-brandoye-growathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:34 INFO    [devpost] 181 codewars -> 136 stored so far
+10:10:34 INFO    [devpost] codewars had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:37 INFO    [devpost] 182 ai-communication-bridge -> 136 stored so far
+10:10:37 INFO    [devpost] ai-communication-bridge had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:39 INFO    [devpost] 183 empathetic-agents -> 136 stored so far
+10:10:39 INFO    [devpost] empathetic-agents had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:41 INFO    [devpost] 184 my-dream-superhero-challenge -> 136 stored so far
+10:10:41 INFO    [devpost] my-dream-superhero-challenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:43 INFO    [devpost] 185 comptontechweeksummer26 -> 136 stored so far
+10:10:43 INFO    [devpost] comptontechweeksummer26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:46 INFO    [devpost] 186 emergence -> 136 stored so far
+10:10:46 INFO    [devpost] emergence had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:47 INFO    [devpost] 187 8-bit-jam -> 136 stored so far
+10:10:47 INFO    [devpost] 8-bit-jam had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:49 INFO    [devpost] 188 stem-energy-hackathon-30249 -> 136 stored so far
+10:10:49 INFO    [devpost] stem-energy-hackathon-30249 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:51 INFO    [devpost] 189 self-evolving-agents -> 136 stored so far
+10:10:51 INFO    [devpost] self-evolving-agents had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:53 INFO    [devpost] 190 myhack-isna -> 136 stored so far
+10:10:53 INFO    [devpost] myhack-isna had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:55 INFO    [devpost] 191 kifiya-inspire-hackathon-2026 -> 136 stored so far
+10:10:55 INFO    [devpost] kifiya-inspire-hackathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:57 INFO    [devpost] 192 linghacks7 -> 136 stored so far
+10:10:57 INFO    [devpost] linghacks7 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:10:58 INFO    [devpost] 193 shibainu-hacks -> 136 stored so far
+10:10:58 INFO    [devpost] shibainu-hacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:00 INFO    [devpost] 194 757-bld-wknd-2026-2-0 -> 136 stored so far
+10:11:00 INFO    [devpost] 757-bld-wknd-2026-2-0 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:01 INFO    [devpost] 195 intellishift-hackathon -> 136 stored so far
+10:11:01 INFO    [devpost] intellishift-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:03 INFO    [devpost] 196 imaginehack-2026 -> 136 stored so far
+10:11:03 INFO    [devpost] imaginehack-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:09 INFO    [devpost] 197 pixel-gemini-2-0-30103 -> 139 stored so far
+10:11:12 INFO    [devpost] 198 code-jam-29953 -> 139 stored so far
+10:11:12 INFO    [devpost] code-jam-29953 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:19 INFO    [devpost] 199 revolute-hackathon -> 142 stored so far
+10:11:22 INFO    [devpost] 200 fiu-boxlang-ai-2026 -> 142 stored so far
+10:11:22 INFO    [devpost] fiu-boxlang-ai-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:25 INFO    [devpost] 201 youthhackkc-summer-hackathon -> 142 stored so far
+10:11:25 INFO    [devpost] youthhackkc-summer-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:28 INFO    [devpost] 202 spacexai-grokathon -> 142 stored so far
+10:11:28 INFO    [devpost] spacexai-grokathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:33 INFO    [devpost] 203 dpi-cs-innovators-hackathon -> 145 stored so far
+10:11:36 INFO    [devpost] 204 resource-renewal-initiative -> 145 stored so far
+10:11:36 INFO    [devpost] resource-renewal-initiative had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:38 INFO    [devpost] 205 disney-streaming-nyc-26 -> 145 stored so far
+10:11:38 INFO    [devpost] disney-streaming-nyc-26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:41 INFO    [devpost] 206 nairobi-hack-day -> 146 stored so far
+10:11:44 INFO    [devpost] 207 developer-portal -> 146 stored so far
+10:11:44 INFO    [devpost] developer-portal had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:47 INFO    [devpost] 208 hack-days-in-delhi-2026 -> 146 stored so far
+10:11:47 INFO    [devpost] hack-days-in-delhi-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:48 INFO    [devpost] 209 applied-intelligence-hackathon -> 146 stored so far
+10:11:48 INFO    [devpost] applied-intelligence-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:50 INFO    [devpost] 210 hacks-day-bhopal -> 146 stored so far
+10:11:50 INFO    [devpost] hacks-day-bhopal had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:51 INFO    [devpost] 211 signal-labs-hackathon -> 146 stored so far
+10:11:51 INFO    [devpost] signal-labs-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:53 INFO    [devpost] 212 os-x-sirius-x-ef-win-1000 -> 146 stored so far
+10:11:53 INFO    [devpost] os-x-sirius-x-ef-win-1000 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:55 INFO    [devpost] 213 maverick-hackathon -> 146 stored so far
+10:11:55 INFO    [devpost] maverick-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:58 INFO    [devpost] 214 dummy-30549 -> 146 stored so far
+10:11:58 INFO    [devpost] dummy-30549 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:11:59 INFO    [devpost] 215 code-vidya-hack-days -> 146 stored so far
+10:11:59 INFO    [devpost] code-vidya-hack-days had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:01 INFO    [devpost] 216 ai-club-chatathon -> 146 stored so far
+10:12:01 INFO    [devpost] ai-club-chatathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:05 INFO    [devpost] 217 305-summercodex-ed-july-2026 -> 147 stored so far
+10:12:09 INFO    [devpost] 218 shanghai-jiao-tong-university -> 147 stored so far
+10:12:09 INFO    [devpost] shanghai-jiao-tong-university had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:11 INFO    [devpost] 219 build-with-gemma-hackathon -> 147 stored so far
+10:12:11 INFO    [devpost] build-with-gemma-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:12 INFO    [devpost] 220 auto-ai-hackathon-munich-2026 -> 147 stored so far
+10:12:12 INFO    [devpost] auto-ai-hackathon-munich-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:14 INFO    [devpost] 221 prompt-insights-news -> 147 stored so far
+10:12:14 INFO    [devpost] prompt-insights-news had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:16 INFO    [devpost] 222 accjune26 -> 147 stored so far
+10:12:16 INFO    [devpost] accjune26 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:18 INFO    [devpost] 223 sample-hackathon1 -> 147 stored so far
+10:12:18 INFO    [devpost] sample-hackathon1 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:22 INFO    [devpost] 224 8-blairhacks -> 147 stored so far
+10:12:22 INFO    [devpost] 8-blairhacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:24 INFO    [devpost] 225 chipcraft-2-0 -> 147 stored so far
+10:12:24 INFO    [devpost] chipcraft-2-0 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:26 INFO    [devpost] 226 ai-healthcare-hack-nyc -> 147 stored so far
+10:12:26 INFO    [devpost] ai-healthcare-hack-nyc had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:28 INFO    [devpost] 227 hack-days-atria -> 147 stored so far
+10:12:28 INFO    [devpost] hack-days-atria had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:30 INFO    [devpost] 228 ob-g12-capstone-teams -> 147 stored so far
+10:12:30 INFO    [devpost] ob-g12-capstone-teams had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:31 INFO    [devpost] 229 sip-hackathon -> 147 stored so far
+10:12:31 INFO    [devpost] sip-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:33 INFO    [devpost] 230 revolutetest -> 147 stored so far
+10:12:33 INFO    [devpost] revolutetest had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:35 INFO    [devpost] 231 build-for-people -> 147 stored so far
+10:12:35 INFO    [devpost] build-for-people had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:36 INFO    [devpost] 232 cv-test-hackathon -> 147 stored so far
+10:12:36 INFO    [devpost] cv-test-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:39 INFO    [devpost] 233 csihacks -> 147 stored so far
+10:12:39 INFO    [devpost] csihacks had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:41 INFO    [devpost] 234 sloptic-test -> 147 stored so far
+10:12:41 INFO    [devpost] sloptic-test had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:43 INFO    [devpost] 235 hack-with-series -> 147 stored so far
+10:12:43 INFO    [devpost] hack-with-series had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:45 INFO    [devpost] 236 build-the-next-big-thing-ai -> 147 stored so far
+10:12:45 INFO    [devpost] build-the-next-big-thing-ai had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:47 INFO    [devpost] 237 likelion-test-2026 -> 147 stored so far
+10:12:47 INFO    [devpost] likelion-test-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:50 INFO    [devpost] 238 sandbox-test -> 147 stored so far
+10:12:50 INFO    [devpost] sandbox-test had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:53 INFO    [devpost] 239 alpha-club -> 147 stored so far
+10:12:53 INFO    [devpost] alpha-club had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:54 INFO    [devpost] 240 ozge-test -> 147 stored so far
+10:12:54 INFO    [devpost] ozge-test had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:56 INFO    [devpost] 241 sunbeam-seattle -> 147 stored so far
+10:12:56 INFO    [devpost] sunbeam-seattle had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:57 INFO    [devpost] 242 build-cuet -> 147 stored so far
+10:12:57 INFO    [devpost] build-cuet had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:12:59 INFO    [devpost] 243 mims-robotics-competition -> 147 stored so far
+10:12:59 INFO    [devpost] mims-robotics-competition had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:02 INFO    [devpost] 244 mechat -> 147 stored so far
+10:13:02 INFO    [devpost] mechat had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:04 INFO    [devpost] 245 trytohack -> 147 stored so far
+10:13:04 INFO    [devpost] trytohack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:05 INFO    [devpost] 246 msu-designathon-2026 -> 147 stored so far
+10:13:05 INFO    [devpost] msu-designathon-2026 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:07 INFO    [devpost] 247 expo26-30947 -> 147 stored so far
+10:13:07 INFO    [devpost] expo26-30947 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:10 INFO    [devpost] 248 husika-test-hackathon -> 147 stored so far
+10:13:10 INFO    [devpost] husika-test-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:11 INFO    [devpost] 249 judging-hackathon -> 147 stored so far
+10:13:11 INFO    [devpost] judging-hackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:13:13 INFO    [devpost] 250 test-29638 -> 147 stored so far
+10:13:13 INFO    [devpost] test-29638 had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:14:38 INFO    [devpost] 251 worldslargesthackathon -> 211 stored so far
+10:15:22 INFO    [devpost] 252 revenuecat-shipaton-2025 -> 241 stored so far
+10:15:37 INFO    [devpost] 253 openai -> 249 stored so far
+10:15:58 INFO    [devpost] 254 gemini3 -> 262 stored so far
+10:17:55 INFO    [devpost] 255 covid-global-hackathon -> 351 stored so far
+10:18:10 INFO    [devpost] 256 googleai -> 359 stored so far
+10:18:36 INFO    [devpost] 257 rapid-agent -> 377 stored so far
+10:18:56 INFO    [devpost] 258 googlechromeai2025 -> 388 stored so far
+10:21:15 INFO    [devpost] 259 amazon-nova -> 495 stored so far
+10:21:55 INFO    [devpost] 260 developercircles2019 -> 523 stored so far
+10:22:14 INFO    [devpost] 261 geminiliveagentchallenge -> 535 stored so far
+10:22:19 INFO    [devpost] 262 wirvsvirushackathon -> 535 stored so far
+10:22:19 INFO    [devpost] wirvsvirushackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:22:33 INFO    [devpost] 263 googlecloudmultiagents -> 543 stored so far
+10:24:36 INFO    [devpost] 264 kiro -> 637 stored so far
+10:25:00 INFO    [devpost] 265 h01 -> 653 stored so far
+10:25:14 INFO    [devpost] 266 aws-agent-hackathon -> 661 stored so far
+10:25:35 INFO    [devpost] 267 azurecosmosdb -> 674 stored so far
+10:25:47 INFO    [devpost] 268 openai2025 -> 680 stored so far
+10:26:04 INFO    [devpost] 269 googlechromeai -> 691 stored so far
+10:26:40 INFO    [devpost] 270 qwencloud-hackathon -> 714 stored so far
+10:27:13 INFO    [devpost] 271 medo -> 736 stored so far
+10:29:43 INFO    [devpost] 272 eunitedvsvirus -> 854 stored so far
+10:32:32 INFO    [devpost] 273 awspartyrockhackathon -> 988 stored so far
+10:32:45 INFO    [devpost] 274 next2025challenge -> 994 stored so far
+10:32:58 INFO    [devpost] 275 agentforcehackathon -> 1000 stored so far
+10:33:19 INFO    [devpost] 276 revenuecat-shipyard-2026 -> 1012 stored so far
+10:33:46 INFO    [devpost] 277 gitlab -> 1031 stored so far
+10:34:01 INFO    [devpost] 278 ai-partner-catalyst -> 1040 stored so far
+10:34:13 INFO    [devpost] 279 ai-in-action -> 1046 stored so far
+10:34:58 INFO    [devpost] 280 ignition -> 1075 stored so far
+10:35:20 INFO    [devpost] 281 figbuild2026 -> 1088 stored so far
+10:37:33 INFO    [devpost] 282 chromaawards -> 1190 stored so far
+10:38:28 INFO    [devpost] 283 flutterhack -> 1230 stored so far
+10:38:50 INFO    [devpost] 284 usaii-global-ai-hackathon-2026 -> 1245 stored so far
+10:41:21 INFO    [devpost] 285 buidlit -> 1364 stored so far
+10:41:24 INFO    [devpost] 286 theglobalhack -> 1364 stored so far
+10:41:24 INFO    [devpost] theglobalhack had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:41:56 INFO    [devpost] 287 cloudnativehack21 -> 1386 stored so far
+10:43:17 INFO    [devpost] 288 kiroween -> 1448 stored so far
+10:43:33 INFO    [devpost] 289 gketurns10 -> 1456 stored so far
+10:44:10 INFO    [devpost] 290 devcommunitychallenge -> 1483 stored so far
+10:44:42 INFO    [devpost] 291 fintech2020 -> 1503 stored so far
+10:45:06 INFO    [devpost] 292 hackaichallenge -> 1520 stored so far
+10:45:18 INFO    [devpost] 293 tableau -> 1525 stored so far
+10:45:40 INFO    [devpost] 294 microsoftfabric -> 1538 stored so far
+10:46:10 INFO    [devpost] 295 tiktoktechjam2024 -> 1559 stored so far
+10:46:25 INFO    [devpost] 296 slackhack -> 1568 stored so far
+10:46:33 INFO    [devpost] 297 findevil -> 1571 stored so far
+10:46:45 INFO    [devpost] 298 perplexityhackathon -> 1577 stored so far
+10:47:07 INFO    [devpost] 299 uipath-agenthack -> 1591 stored so far
+10:47:57 INFO    [devpost] 300 googlemapsplatformawards -> 1625 stored so far
+10:48:26 INFO    [devpost] 301 alexa -> 1646 stored so far
+10:49:48 INFO    [devpost] 302 metabuildii -> 1709 stored so far
+10:50:08 INFO    [devpost] 303 awsdevchallenge -> 1721 stored so far
+10:50:29 INFO    [devpost] 304 agents-assemble -> 1734 stored so far
+10:50:42 INFO    [devpost] 305 awslambdahackathon -> 1741 stored so far
+10:51:07 INFO    [devpost] 306 codegeist -> 1757 stored so far
+10:51:21 INFO    [devpost] 307 microsoftaiclassroom -> 1764 stored so far
+10:51:35 INFO    [devpost] 308 womentechmakers -> 1771 stored so far
+10:51:54 INFO    [devpost] 309 googlevertexai -> 1782 stored so far
+10:52:42 INFO    [devpost] 310 codegeist2022 -> 1815 stored so far
+10:53:12 INFO    [devpost] 311 codegeistxawr -> 1836 stored so far
+10:53:52 INFO    [devpost] 312 globalgamers -> 1863 stored so far
+10:53:54 INFO    [devpost] 313 ai-for-good -> 1863 stored so far
+10:53:54 INFO    [devpost] ai-for-good had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:54:07 INFO    [devpost] 314 run -> 1870 stored so far
+10:54:21 INFO    [devpost] 315 azureaidev -> 1877 stored so far
+10:54:36 INFO    [devpost] 316 adobeexpress -> 1883 stored so far
+10:54:45 INFO    [devpost] 317 awschatbot2017 -> 1887 stored so far
+10:55:02 INFO    [devpost] 318 vcthackathon -> 1894 stored so far
+10:55:31 INFO    [devpost] 319 hackthisfall-2 -> 1909 stored so far
+10:55:53 INFO    [devpost] 320 mod-tools-migration -> 1922 stored so far
+10:56:18 INFO    [devpost] 321 redditgameswithahook -> 1936 stored so far
+10:57:03 INFO    [devpost] 322 metabuild -> 1965 stored so far
+10:57:49 INFO    [devpost] 323 snaplensathon -> 1995 stored so far
+10:58:12 INFO    [devpost] 324 redditdailygames2026 -> 2009 stored so far
+10:58:17 INFO    [devpost] 325 robocall -> 2009 stored so far
+10:58:17 INFO    [devpost] robocall had no prize-winners (winners are often announced weeks after a hackathon ends)
+10:58:43 INFO    [devpost] 326 liquidmetal -> 2024 stored so far
+10:58:51 INFO    [devpost] 327 baseline -> 2027 stored so far
+10:59:01 INFO    [devpost] 328 impetusawsgenaihackathon -> 2030 stored so far
+10:59:46 INFO    [devpost] 329 start-developer-competition -> 2062 stored so far
+11:00:02 INFO    [devpost] 330 authorizedtoact -> 2071 stored so far
+11:00:12 INFO    [devpost] 331 qloo-hackathon -> 2075 stored so far
+11:00:56 INFO    [devpost] 332 supernova -> 2106 stored so far
+11:01:15 INFO    [devpost] 333 canva -> 2116 stored so far
+11:02:27 INFO    [devpost] 334 polkadot -> 2166 stored so far
+11:02:39 INFO    [devpost] 335 ai-accelerate -> 2172 stored so far
+11:03:03 INFO    [devpost] 336 googlesimmersive -> 2188 stored so far
+11:03:06 INFO    [devpost] 337 ibm-zdatathon-18843 -> 2188 stored so far
+11:03:06 INFO    [devpost] ibm-zdatathon-18843 had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:03:20 INFO    [devpost] 338 tidb-2025-hackathon -> 2195 stored so far
+11:03:35 INFO    [devpost] 339 riftrewind -> 2202 stored so far
+11:03:46 INFO    [devpost] 340 digitalocean -> 2208 stored so far
+11:04:01 INFO    [devpost] 341 googlemapsplatform -> 2216 stored so far
+11:04:03 INFO    [devpost] 342 iisc-ibm-india-ai-impact -> 2216 stored so far
+11:04:03 INFO    [devpost] iisc-ibm-india-ai-impact had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:04:13 INFO    [devpost] 343 fbai2 -> 2219 stored so far
+11:04:51 INFO    [devpost] 344 hedera22 -> 2245 stored so far
+11:05:07 INFO    [devpost] 345 pytorch2020 -> 2254 stored so far
+11:05:21 INFO    [devpost] 346 square-google-ai -> 2262 stored so far
+11:05:24 INFO    [devpost] 347 hajjhackathon -> 2262 stored so far
+11:05:24 INFO    [devpost] hajjhackathon had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:07:20 INFO    [devpost] 348 chainlinkspring2023 -> 2350 stored so far
+11:07:34 INFO    [devpost] 349 convexhackathon -> 2357 stored so far
+11:07:42 INFO    [devpost] 350 fbai3 -> 2360 stored so far
+11:07:56 INFO    [devpost] 351 splunk -> 2367 stored so far
+11:08:00 INFO    [devpost] 352 forgequest -> 2367 stored so far
+11:08:00 INFO    [devpost] forgequest had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:09:31 INFO    [devpost] 353 developercircles2020 -> 2415 stored so far
+11:09:46 INFO    [devpost] 354 awshealthai -> 2420 stored so far
+11:10:52 INFO    [devpost] 355 mobiledefi -> 2466 stored so far
+11:10:59 INFO    [devpost] 356 aws-breaking-barriers -> 2469 stored so far
+11:11:10 INFO    [devpost] 357 adtc-2025 -> 2473 stored so far
+11:11:22 INFO    [devpost] 358 elchackathon -> 2480 stored so far
+11:11:49 INFO    [devpost] 359 docker -> 2499 stored so far
+11:12:07 INFO    [devpost] 360 cloud9 -> 2506 stored so far
+11:12:25 INFO    [devpost] 361 github-copilot -> 2512 stored so far
+11:14:12 INFO    [devpost] 362 constellation-hackathon -> 2579 stored so far
+11:14:29 INFO    [devpost] 363 tableau2025 -> 2584 stored so far
+11:14:33 INFO    [devpost] 364 gearapp -> 2584 stored so far
+11:14:33 INFO    [devpost] gearapp had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:14:47 INFO    [devpost] 365 hackthetrack -> 2592 stored so far
+11:14:58 INFO    [devpost] 366 zervehack -> 2595 stored so far
+11:15:11 INFO    [devpost] 367 fbmessaging2 -> 2598 stored so far
+11:15:37 INFO    [devpost] 368 metaquesthackathon -> 2607 stored so far
+11:16:02 INFO    [devpost] 369 dapp-a-thon -> 2621 stored so far
+11:16:40 INFO    [devpost] 370 redditfunandgames -> 2646 stored so far
+11:16:53 INFO    [devpost] 371 elasticsearch -> 2653 stored so far
+11:17:05 INFO    [devpost] 372 lmaedgehackathon -> 2658 stored so far
+11:17:15 INFO    [devpost] 373 convexhackathon2 -> 2662 stored so far
+11:17:45 INFO    [devpost] 374 alexakidskills -> 2682 stored so far
+11:17:53 INFO    [devpost] 375 fbmessaging3 -> 2685 stored so far
+11:18:01 INFO    [devpost] 376 snowflake-mistral-rag -> 2688 stored so far
+11:18:11 INFO    [devpost] 377 nvidia-aws -> 2691 stored so far
+11:18:30 INFO    [devpost] 378 meldrx-predictive-ai -> 2700 stored so far
+11:18:43 INFO    [devpost] 379 ehack -> 2705 stored so far
+11:19:25 INFO    [devpost] 380 cosmos-hackatom-vi -> 2733 stored so far
+11:21:05 INFO    [devpost] 381 azureai -> 2789 stored so far
+11:21:31 INFO    [devpost] 382 pytorch2021 -> 2806 stored so far
+11:21:34 INFO    [devpost] 383 proofofconcept -> 2806 stored so far
+11:21:34 INFO    [devpost] proofofconcept had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:22:45 INFO    [devpost] 384 chainlinkblockmagic -> 2849 stored so far
+11:22:57 INFO    [devpost] 385 tiktoktechjam2025 -> 2854 stored so far
+11:29:21 INFO    [devpost] 386 postman-hack -> 3124 stored so far
+11:29:37 INFO    [devpost] 387 lolglobalpowerrankings -> 3134 stored so far
+11:30:01 INFO    [devpost] 388 alexaconversations -> 3149 stored so far
+11:31:21 INFO    [devpost] 389 tron -> 3210 stored so far
+11:31:34 INFO    [devpost] 390 google3dmaps -> 3218 stored so far
+11:31:54 INFO    [devpost] 391 amazon-ec2-dl1 -> 3231 stored so far
+11:32:41 INFO    [devpost] 392 hackthenorth2020 -> 3264 stored so far
+11:32:54 INFO    [devpost] 393 arctic-streamlit-hackathon -> 3271 stored so far
+11:33:28 INFO    [devpost] 394 codegeistunleashed -> 3294 stored so far
+11:33:37 INFO    [devpost] 395 fbai1 -> 3297 stored so far
+11:34:26 INFO    [devpost] 396 mhcp-mobile-genre-2 -> 3332 stored so far
+11:34:44 INFO    [devpost] 397 revenuecat-ship-a-ton -> 3341 stored so far
+11:34:56 INFO    [devpost] 398 arangodbhackathon -> 3347 stored so far
+11:35:09 INFO    [devpost] 399 arm-ai-developer-challenge -> 3353 stored so far
+11:35:23 INFO    [devpost] 400 web5 -> 3361 stored so far
+11:35:38 INFO    [devpost] 401 chirpdevchallenge -> 3369 stored so far
+11:35:51 INFO    [devpost] 402 tidbhackathon2024 -> 3376 stored so far
+11:36:24 INFO    [devpost] 403 monday -> 3399 stored so far
+11:37:05 INFO    [devpost] 404 gitlab-transcend -> 3427 stored so far
+11:39:21 INFO    [devpost] 405 cal-hacks-12-0 -> 3529 stored so far
+11:40:02 INFO    [devpost] 406 1t-agents -> 3554 stored so far
+11:40:44 INFO    [devpost] 407 mhcp-mobile-genre-competition -> 3584 stored so far
+11:41:10 INFO    [devpost] 408 graphforall -> 3602 stored so far
+11:41:33 INFO    [devpost] 409 mondayappsteams -> 3617 stored so far
+11:41:43 INFO    [devpost] 410 devrevhack0 -> 3621 stored so far
+11:43:37 INFO    [devpost] 411 chainlink-fall-hackathon-2021 -> 3706 stored so far
+11:43:57 INFO    [devpost] 412 redditgamesandpuzzles -> 3719 stored so far
+11:44:05 INFO    [devpost] 413 springhacks2024 -> 3722 stored so far
+11:44:29 INFO    [devpost] 414 communitygames2025 -> 3739 stored so far
+11:44:43 INFO    [devpost] 415 airia-hackathon -> 3745 stored so far
+11:45:22 INFO    [devpost] 416 resolve-starknet -> 3773 stored so far
+11:45:36 INFO    [devpost] 417 analytics-vibeathon -> 3781 stored so far
+11:45:47 INFO    [devpost] 418 aws-asdi -> 3787 stored so far
+11:46:00 INFO    [devpost] 419 awsdisasterresponse -> 3794 stored so far
+11:46:09 INFO    [devpost] 420 fetch-ai-hackathon -> 3797 stored so far
+11:48:11 INFO    [devpost] 421 chainlinkspring2022 -> 3886 stored so far
+11:48:20 INFO    [devpost] 422 hex-a-thon -> 3890 stored so far
+11:48:37 INFO    [devpost] 423 tidbhackathon2023 -> 3898 stored so far
+11:48:49 INFO    [devpost] 424 fbmessaging1 -> 3901 stored so far
+11:49:07 INFO    [devpost] 425 pytorch2019 -> 3909 stored so far
+11:50:00 INFO    [devpost] 426 codegeist2021 -> 3947 stored so far
+11:50:50 INFO    [devpost] 427 mhcp-mobile-update-competition -> 3982 stored so far
+11:51:04 INFO    [devpost] 428 hpaistudio -> 3992 stored so far
+11:51:31 INFO    [devpost] 429 developerweek-2024-hackathon -> 4010 stored so far
+11:51:41 INFO    [devpost] 430 unlocked -> 4013 stored so far
+11:51:53 INFO    [devpost] 431 serverpod -> 4020 stored so far
+11:52:04 INFO    [devpost] 432 awsdataexchange -> 4026 stored so far
+11:53:01 INFO    [devpost] 433 hackatron7 -> 4065 stored so far
+11:53:30 INFO    [devpost] 434 devsunleashed -> 4084 stored so far
+11:53:39 INFO    [devpost] 435 fbar3 -> 4087 stored so far
+11:53:57 INFO    [devpost] 436 hackreddit -> 4099 stored so far
+11:54:30 INFO    [devpost] 437 codegeist2020 -> 4120 stored so far
+11:54:52 INFO    [devpost] 438 googlecloudgeminihackathon -> 4128 stored so far
+11:56:03 INFO    [devpost] 439 devstudiologitech2026 -> 4180 stored so far
+11:56:23 INFO    [devpost] 440 mindtheproduct -> 4193 stored so far
+11:56:47 INFO    [devpost] 441 hackquarantine -> 4210 stored so far
+11:57:11 INFO    [devpost] 442 backblaze-generative-media -> 4223 stored so far
+11:57:32 INFO    [devpost] 443 empower-hacks-2-0 -> 4236 stored so far
+11:57:45 INFO    [devpost] 444 square2023 -> 4243 stored so far
+11:58:31 INFO    [devpost] 445 hackdevpost -> 4275 stored so far
+11:58:35 INFO    [devpost] 446 vrjam -> 4275 stored so far
+11:58:35 INFO    [devpost] vrjam had no prize-winners (winners are often announced weeks after a hackathon ends)
+11:58:55 INFO    [devpost] 447 alexaisp -> 4288 stored so far
+11:59:59 INFO    [devpost] 448 pygames -> 4335 stored so far
+12:00:07 INFO    [devpost] 449 eosio-beyond-blockchain -> 4339 stored so far
+12:00:11 INFO    [devpost] 450 girlcode-hackathon-2024 -> 4339 stored so far
+12:00:11 INFO    [devpost] girlcode-hackathon-2024 had no prize-winners (winners are often announced weeks after a hackathon ends)
+12:00:20 INFO    [devpost] 451 fbar2 -> 4342 stored so far
+12:00:31 INFO    [devpost] 452 codevscovid19 -> 4346 stored so far
+12:00:33 INFO    [devpost] 453 trackshift -> 4346 stored so far
+12:00:33 INFO    [devpost] trackshift had no prize-winners (winners are often announced weeks after a hackathon ends)
+12:00:36 INFO    [devpost] 454 mintchipchallenge -> 4346 stored so far
+12:00:36 INFO    [devpost] mintchipchallenge had no prize-winners (winners are often announced weeks after a hackathon ends)
+12:00:45 INFO    [devpost] 455 wemakedevs-stream -> 4350 stored so far
+12:01:09 INFO    [devpost] 456 awsgraviton -> 4365 stored so far
+12:01:49 INFO    [devpost] 457 developerweek-2026-hackathon -> 4393 stored so far
+12:02:14 INFO    [devpost] 458 fantomq12023 -> 4409 stored so far
+12:02:34 INFO    [devpost] 459 mondayapps -> 4422 stored so far
+12:03:17 INFO    [devpost] 460 redacted -> 4452 stored so far
+12:03:59 INFO    [devpost] 461 hackthenorth2021 -> 4480 stored so far
+12:04:13 INFO    [devpost] 462 pega -> 4487 stored so far
+12:57:44 ERROR   [devpost] fintech failed: HTTPSConnectionPool(host='fintech.devpost.com', port=443): Max retries exceeded with url: /project-gallery?page=2 (Caused by NameResolutionError("HTTPSConnection(host='fintech.devpost.com', port=443): Failed to resolve 'fintech.devpost.com' ([Errno 8] nodename nor servname provided, or not known)"))
+13:02:42 INFO    [devpost] 463 fintech -> 4510 stored so far
+13:05:50 INFO    [devpost] 464 chainlinkfall2022 -> 4599 stored so far
+13:06:17 INFO    [devpost] 465 hackcovid19 -> 4617 stored so far
