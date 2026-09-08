@@ -7,7 +7,7 @@ import sqlite3
 from pathlib import Path
 from typing import Iterable
 
-from scrapers.models import (
+from ..scrapers.models import (
     PROBLEM_COLUMNS, PROBLEM_NUMERIC, ROW_COLUMNS, PainPoint, Project,
 )
 

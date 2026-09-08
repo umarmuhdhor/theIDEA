@@ -22,7 +22,7 @@ import math
 import re
 from collections import defaultdict
 
-from scrapers.social.signals import impact
+from ..scrapers.social.signals import impact
 
 log = logging.getLogger(__name__)
 

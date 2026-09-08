@@ -1,7 +1,19 @@
 .venv/
 __pycache__/
 *.pyc
+*.egg-info/
+
+# Credentials: ANTHROPIC_API_KEY and the REDDIT_* trio, loaded by run.sh.
+.env
+
+.DS_Store
+
+# data/ holds only generated artifacts — the database, the HTTP response cache,
+# the exports and the crawl logs. Nothing in it is source, and the directory is
+# recreated on demand (see Store.__init__ and scrapers/base.py), so it is not
+# tracked at all.
 data/.cache/
 data/*.db
 data/*.jsonl
 data/*.csv
+data/*.log

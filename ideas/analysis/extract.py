@@ -19,7 +19,7 @@ import logging
 import os
 from typing import Any, Iterable
 
-from scrapers.social.signals import impact
+from ..scrapers.social.signals import impact
 
 log = logging.getLogger(__name__)
 

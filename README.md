@@ -13,46 +13,58 @@ Three sources are implemented today:
 | **ETHGlobal** ([showcase](https://ethglobal.com/showcase)) | No API — parses the Next.js RSC payload. Every prize the project won, plus an AI-generated one-line summary the site itself publishes. |
 | **Unstop** (6,200+ hackathons) | **Directory only — no project ideas.** Unstop publishes events, prize structures and required skills, but keeps teams, leaderboards and results behind a login. Use it to *discover* events, then find the projects on Devpost/Devfolio. |
 
-See **[SOURCES.md](SOURCES.md)** for the wider directory of places to find hackathon
+See **[docs/SOURCES.md](docs/SOURCES.md)** for the wider directory of places to find hackathon
 winners (Unstop, DoraHacks, lablab.ai, Taikai, MLH, Kaggle, …) and what data hook each
 one has.
 
 ## Install
 
+`run.sh` owns the virtualenv — it creates `.venv` and installs
+`requirements.txt` on first use, and skips both once they are in place.
+
 ```bash
-python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
+./run.sh setup
 ```
 
 ## Use
 
+With no arguments `run.sh` runs the whole pipeline and opens the dashboard,
+skipping any stage whose output is already in the database:
+
+```bash
+./run.sh
+```
+
+Or drive the stages one at a time:
+
 ```bash
 # the example from the brief: Onchain Summer winners
-./.venv/bin/python run.py scrape --source devfolio --hackathon onchain-summer
+./run.sh scrape --source devfolio --hackathon onchain-summer
 ```
 
 ```bash
 # 20 most recent ended Devpost hackathons, winners only
-./.venv/bin/python run.py --rate 1.5 scrape --source devpost --max-hackathons 20
+./run.sh --rate 1.5 scrape --source devpost --max-hackathons 20
 ```
 
 ```bash
 # every prize-winning ETHGlobal showcase project (one global pass, all events)
-./.venv/bin/python run.py scrape --source ethglobal --max-projects 500
+./run.sh scrape --source ethglobal --max-projects 500
 ```
 
 ```bash
 # browse what is available before committing to a crawl
-./.venv/bin/python run.py list-hackathons --source devfolio --limit 40
+./run.sh list-hackathons --source devfolio --limit 40
 ```
 
 ```bash
 # full-text search the ideas you collected
-./.venv/bin/python run.py search "ai agent marketplace"
+./run.sh search "ai agent marketplace"
 ```
 
 ```bash
-./.venv/bin/python run.py export --format jsonl --winners-only
-./.venv/bin/python run.py stats
+./run.sh export --format jsonl --winners-only
+./run.sh stats
 ```
 
 ### Options that matter
@@ -75,18 +87,18 @@ the other half: **unmet problems**, straight from the people complaining about t
 
 ```bash
 # every Hacker News post/comment of the last 180 days that reads like an unmet need
-./.venv/bin/python run.py mine --source hn --since 180d --limit 1500
+./run.sh mine --source hn --since 180d --limit 1500
 ```
 
 ```bash
 # every source that needs no credentials at all
-./.venv/bin/python run.py mine --source hn stackexchange discourse lemmy appstore --since 2y
+./run.sh mine --source hn stackexchange discourse lemmy appstore --since 2y
 ```
 
 ```bash
 # Reddit: where non-developers complain (needs a free API app, see below)
-./.venv/bin/python run.py mine --source reddit --since 1y --limit 600
-./.venv/bin/python run.py mine --source reddit --channels restaurateur logistics --since 2y
+./run.sh mine --source reddit --since 1y --limit 600
+./run.sh mine --source reddit --channels restaurateur logistics --since 2y
 ```
 
 ### The sources
@@ -104,9 +116,9 @@ Only Reddit needs credentials. The other five run out of the box.
 
 ```bash
 # narrow it to a space you care about
-./.venv/bin/python run.py mine --source hn --query restaurant --since 2y --limit 500
-./.venv/bin/python run.py problems --top 20 --domain fintech
-./.venv/bin/python run.py problems --search "inventory" --export data/problems.jsonl
+./run.sh mine --source hn --query restaurant --since 2y --limit 500
+./run.sh problems --top 20 --domain fintech
+./run.sh problems --search "inventory" --export data/problems.jsonl
 ```
 
 ### How it works
@@ -235,7 +247,7 @@ your own search.
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
-./.venv/bin/python run.py extract --limit 100        # or --dry-run to see the prompt first
+./run.sh extract --limit 100        # or --dry-run to see the prompt first
 ```
 
 Sends the highest-scoring un-judged rows to Claude in batches of 20 and gets back,
@@ -255,7 +267,7 @@ text. Pass `--model claude-opus-5` for sharper statements at ~5x the input price
 ### `cluster` — merging duplicate complaints
 
 ```bash
-./.venv/bin/python run.py cluster            # --threshold 0.32 by default
+./run.sh cluster            # --threshold 0.32 by default
 ```
 
 Forty people describing the same friction in forty different sentences is the single
@@ -309,8 +321,8 @@ should we build this weekend" is a pain point with high impact that **nothing in
 the corpus attacks**.
 
 ```bash
-./.venv/bin/python run.py gap --top 15
-./.venv/bin/python run.py gap --unsolved-only --domain fintech
+./run.sh gap --top 15
+./run.sh gap --unsolved-only --domain fintech
 ```
 
 ```
@@ -352,7 +364,7 @@ the opportunity, the tenth barely moves it.
 ## Dashboard
 
 ```bash
-./.venv/bin/python dashboard.py
+./run.sh dashboard
 ```
 
 Opens on <http://127.0.0.1:5000>, with a sidebar holding the filters (source,
@@ -397,29 +409,48 @@ fast (~8ms after the first).
 
 ## Layout
 
+Two diagrams of the pipeline live in [docs/diagrams](docs/diagrams):
+the [stage order](docs/diagrams/pipeline_stepflow.svg) and the
+[skip/force logic](docs/diagrams/pipeline_flowchart.svg) `run.sh all` follows.
+
+The code is one package, `ideas`, so every import is explicit about where it
+comes from and nothing depends on the repository root being on `sys.path`.
+
 ```
-run.py              CLI
-dashboard.py        Flask dashboard (templates/dashboard.html)
-scrapers/
-  models.py         Project / Prize / PainPoint dataclasses + row schemas
-  base.py           HTTP client: rate limit, retry w/ backoff, disk cache
-  devfolio.py       api.devfolio.co search API
-  devpost.py        devpost.com JSON directory + gallery/detail HTML
-  ethglobal.py      RSC flight-payload parser
-  social/
-    base.py         SocialPost + the SocialScraper interface
-    signals.py      weighted pain-phrase filter -> PainPoint
-    hn.py           Hacker News via the Algolia API
-    reddit.py       Reddit via the OAuth API (app-only token)
-    stackexchange.py  Stack Exchange network search
-    discourse.py    any Discourse forum's search.json
-    lemmy.py        Lemmy instance search
-    appstore.py     iTunes search + review RSS
-gap.py              problem x project cross-match (coverage test)
-extract.py          LLM pass: rewrite / judge / rate a mined pain point
-cluster.py          TF-IDF + union-find merge of duplicate complaints
-store/db.py         SQLite + FTS5 + CSV/JSONL export (projects *and* problems)
-data/               database, exports, response cache
+run.sh              entry point: owns .venv, .env and the stage order
+pyproject.toml      package metadata; also installs an `ideas` console script
+ideas/
+  cli.py            the command line every stage hangs off
+  __main__.py       `python -m ideas`
+  scrapers/         where data comes from
+    models.py       Project / Prize / PainPoint dataclasses + row schemas
+    base.py         HTTP client: rate limit, retry w/ backoff, disk cache
+    devfolio.py     api.devfolio.co search API
+    devpost.py      devpost.com JSON directory + gallery/detail HTML
+    ethglobal.py    RSC flight-payload parser
+    unstop.py       event directory only — no project submissions
+    social/         the pain-point half of the corpus
+      base.py       SocialPost + the SocialScraper interface
+      signals.py    weighted pain-phrase filter -> PainPoint
+      hn.py         Hacker News via the Algolia API
+      reddit.py     Reddit via the OAuth API (app-only token)
+      stackexchange.py  Stack Exchange network search
+      discourse.py  any Discourse forum's search.json
+      lemmy.py      Lemmy instance search
+      appstore.py   iTunes search + review RSS
+  store/db.py       SQLite + FTS5 + CSV/JSONL export (projects *and* problems)
+  analysis/         everything that reads the store and derives something
+    matcher.py      lexical topic match over the project corpus
+    gap.py          problem x project cross-match (coverage test)
+    cluster.py      TF-IDF + union-find merge of duplicate complaints
+    extract.py      LLM pass: rewrite / judge / rate a mined pain point
+  web/
+    app.py          Flask dashboard
+    templates/dashboard.html
+docs/
+  SOURCES.md        the wider directory of places to find hackathon winners
+  diagrams/         pipeline diagrams (.py source, .drawio, .svg preview)
+data/               generated only: database, exports, response cache, logs
 ```
 
 ## The unified schema

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Local dashboard for browsing the scraped hackathon ideas.
 
-    ./.venv/bin/python dashboard.py            # http://127.0.0.1:5000
+    ./run.sh dashboard                         # http://localhost:5050
 
 Reads the same SQLite file the scrapers write to, so it stays useful while a
 crawl is still running — the counters update on refresh.
@@ -15,9 +15,9 @@ from pathlib import Path
 
 from flask import Flask, jsonify, render_template, request
 
-import gap as gap_mod
-from matcher import TopicMatcher
-from store import Store
+from ..analysis import gap as gap_mod
+from ..analysis.matcher import TopicMatcher
+from ..store import Store
 
 app = Flask(__name__)
 DB_PATH = "data/hackathon_ideas.db"

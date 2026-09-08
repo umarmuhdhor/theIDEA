@@ -4,27 +4,27 @@
 Examples
 --------
   # one Devfolio hackathon (the Onchain Summer example)
-  python run.py scrape --source devfolio --hackathon onchain-summer
+  ./run.sh scrape --source devfolio --hackathon onchain-summer
 
   # 20 most recent ended Devpost hackathons, winners only
-  python run.py scrape --source devpost --max-hackathons 20
+  ./run.sh scrape --source devpost --max-hackathons 20
 
   # every ETHGlobal showcase project that won a prize
-  python run.py scrape --source ethglobal --max-projects 500
+  ./run.sh scrape --source ethglobal --max-projects 500
 
   # mine Hacker News for unmet needs, then rank them
-  python run.py mine --source hn --query restaurant --since 180d
-  python run.py mine --source reddit --channels smallbusiness restaurateur
-  python run.py mine --source stackexchange discourse lemmy appstore
-  python run.py extract --limit 100          # LLM: rewrite, judge, rate severity
-  python run.py cluster                      # merge duplicate complaints
-  python run.py gap --unsolved-only          # pains no winning project attacks
-  python run.py problems --top 20 --domain fintech
+  ./run.sh mine --source hn --query restaurant --since 180d
+  ./run.sh mine --source reddit --channels smallbusiness restaurateur
+  ./run.sh mine --source stackexchange discourse lemmy appstore
+  ./run.sh extract --limit 100          # LLM: rewrite, judge, rate severity
+  ./run.sh cluster                      # merge duplicate complaints
+  ./run.sh gap --unsolved-only          # pains no winning project attacks
+  ./run.sh problems --top 20 --domain fintech
 
-  python run.py list-hackathons --source devfolio --limit 30
-  python run.py search "agent marketplace"
-  python run.py export --format jsonl --winners-only
-  python run.py stats
+  ./run.sh list-hackathons --source devfolio --limit 30
+  ./run.sh search "agent marketplace"
+  ./run.sh export --format jsonl --winners-only
+  ./run.sh stats
 """
 from __future__ import annotations
 
@@ -32,13 +32,13 @@ import argparse
 import logging
 import sys
 
-import cluster as cluster_mod
-import extract as extract_mod
-import gap as gap_mod
-from matcher import TopicMatcher
-from scrapers import SCRAPERS, HttpClient
-from scrapers.social import SOCIAL_SCRAPERS, to_painpoint
-from store import Store
+from .analysis import cluster as cluster_mod
+from .analysis import extract as extract_mod
+from .analysis import gap as gap_mod
+from .analysis.matcher import TopicMatcher
+from .scrapers import SCRAPERS, HttpClient
+from .scrapers.social import SOCIAL_SCRAPERS, to_painpoint
+from .store import Store
 
 log = logging.getLogger("run")
 

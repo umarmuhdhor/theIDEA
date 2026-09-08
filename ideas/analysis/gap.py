@@ -22,7 +22,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from matcher import Match, TopicMatcher, tokenize
+from .matcher import Match, TopicMatcher, tokenize
 
 log = logging.getLogger(__name__)
 
